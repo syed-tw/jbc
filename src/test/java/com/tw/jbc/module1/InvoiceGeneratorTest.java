@@ -10,6 +10,5 @@ public class InvoiceGeneratorTest {
         InvoiceGenerator invoiceGenerator = new InvoiceGenerator();
         int fare = invoiceGenerator.getFare(3,2);
         assertEquals(34, fare);
-
     }
 }

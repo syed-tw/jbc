@@ -1,4 +1,0 @@
-com/tw/jbc/module1/MoodAnalyser.java
- com.tw.jbc.module1.MoodAnalyser
-com/tw/jbc/module1/InvoiceGenerator.java
- com.tw.jbc.module1.InvoiceGenerator
