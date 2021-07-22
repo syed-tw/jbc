@@ -13,4 +13,8 @@ public class RectangleTest {
         assertEquals(12, area);
 
     }
+
+    @Test
+    void testCalculatePerimeter() {
+    }
 }
