@@ -16,5 +16,8 @@ public class RectangleTest {
 
     @Test
     void testCalculatePerimeter() {
+        Rectangle rectangle = new Rectangle();
+        int perimeter = rectangle.calculatePerimeter(3,4);
+        assertEquals(14, perimeter);
     }
 }

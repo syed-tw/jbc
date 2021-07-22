@@ -5,4 +5,9 @@ public class Rectangle {
         int area = length*breath;
         return area;
     }
+
+    public int calculatePerimeter(int length, int breath) {
+        int perimeter = 2*(length+breath);
+        return perimeter;
+    }
 }
