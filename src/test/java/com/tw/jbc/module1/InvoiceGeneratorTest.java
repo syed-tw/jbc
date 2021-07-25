@@ -15,17 +15,17 @@ public class InvoiceGeneratorTest {
     void checkFareWhenTotalFareIsLessThanMinimumFare() {
         InvoiceGenerator invoiceGenerator = new InvoiceGenerator();
         int fare = invoiceGenerator.getFare(3,2);
-        assertEquals(34, fare);
+        assertEquals(40, fare);
     }
 
     /***
      * Requirement 2 - Test Case
      */
-//    @Test
-//    void checkFareWhenTotalFareIsGreaterThanMinimumFare() {
-//        InvoiceGenerator invoiceGenerator = new InvoiceGenerator();
-//        int fare = invoiceGenerator.getFare(4,4);
-//        assertEquals(48, fare);
-//    }
+    @Test
+    void checkFareWhenTotalFareIsGreaterThanMinimumFare() {
+        InvoiceGenerator invoiceGenerator = new InvoiceGenerator();
+        int fare = invoiceGenerator.getFare(4,4);
+        assertEquals(48, fare);
+    }
 
 }
