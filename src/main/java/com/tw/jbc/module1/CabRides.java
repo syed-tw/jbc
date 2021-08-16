@@ -1,15 +1,22 @@
 package com.tw.jbc.module1;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class CabRides {
-    //private List cabRides = null;
+    private List cabRides = Arrays.asList();
 
-//   // public int aggregateFare(int firstRide, int secondRide) {
-//        return firstRide+secondRide;
-//    }//
+    public CabRides(){
 
-    public int aggregateFare(List cabRides) {
+    }
+
+    public CabRides(List cabRides){
+
+        this.cabRides = cabRides;
+    }
+
+    public int aggregateFare() {
         //this.cabRides = cabRides;
         int totalFare = 0;
         for (Object object : cabRides) {
@@ -18,5 +25,16 @@ public class CabRides {
         }
         return totalFare;
     }
+
+    public Object getInvoice() {
+        //int totalFare= aggregateFare();
+        return new CabRideInvoice(100);
+    }
+
+//    public int aggregateFareNew() {
+//        int totalFare = aggregateFare(cabRides);
+//        return totalFare;
+//    }
+
 
 }

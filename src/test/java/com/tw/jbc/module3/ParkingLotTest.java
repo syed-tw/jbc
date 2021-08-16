@@ -8,6 +8,5 @@ public class ParkingLotTest {
     void testShouldBeAbleToParkTheCar() {
         ParkingLot parkingLot = new ParkingLot();
         parkingLot.park();
-
     }
 }

@@ -1,13 +1,29 @@
 package com.tw.jbc.module2;
 
 public class Rectangle {
-    public int calculateArea(int length, int breath) {
-        int area = length*breath;
-        return area;
+    private final int length;
+    private final int breath;
+
+    private Rectangle(int length, int breath) {
+        this.length = length;
+        this.breath = breath;
     }
 
-    public int calculatePerimeter(int length, int breath) {
-        int perimeter = 2*(length+breath);
-        return perimeter;
+    public static Rectangle square(int side) {
+        return new Rectangle(side, side);
+    }
+
+    static Rectangle rectangle(int length, int breath) {
+        return new Rectangle(length, breath);
+    }
+
+
+    public int area() {
+
+        return breath * length;
+    }
+
+    public int perimeter() {
+        return 2*(length+breath);
     }
 }
