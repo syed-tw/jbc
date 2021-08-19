@@ -1,8 +1,8 @@
-package com.tw.jbc.module2;
+package com.tw.jbc.rectangle;
 
 import org.junit.jupiter.api.Test;
 
-import static com.tw.jbc.module2.Rectangle.*;
+import static com.tw.jbc.rectangle.Rectangle.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 

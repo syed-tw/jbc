@@ -1,4 +1,4 @@
-package com.tw.jbc.module1;
+package com.tw.jbc.cabride;
 
 import org.junit.jupiter.api.Test;
 

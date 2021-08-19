@@ -1,4 +1,4 @@
-package com.tw.jbc.module2;
+package com.tw.jbc.rectangle;
 
 public class Square {
 

@@ -1,4 +1,4 @@
-package com.tw.jbc.module1;
+package com.tw.jbc.cabride;
 
 public class CabRideInvoice {
     public int getAggregateFare() {

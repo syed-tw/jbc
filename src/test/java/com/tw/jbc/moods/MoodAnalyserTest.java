@@ -1,4 +1,4 @@
-package com.tw.jbc.practice;
+package com.tw.jbc.moods;
 
 
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.tw.jbc.module3;
+package com.tw.jbc.parkinglot;
 
 public class ParkingLot {
 

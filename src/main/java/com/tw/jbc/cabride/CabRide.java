@@ -1,4 +1,4 @@
-package com.tw.jbc.module1;
+package com.tw.jbc.cabride;
 
 public class CabRide {
     private final int distanceTravelledInKm;
@@ -23,7 +23,7 @@ public class CabRide {
 
         //return 10 * distanceTravelledInKm+2*timeTravelledInMinutes;
         int calculateFare = COST_PER_KM * distanceTravelledInKm + COST_PER_MINUTES * waitTimeInMinutes;
-        //eturn Math.max(calculateFare, MINIMUM_FARE);
+        //return Math.max(calculateFare, MINIMUM_FARE);
         return calculateFare;
     }
 }

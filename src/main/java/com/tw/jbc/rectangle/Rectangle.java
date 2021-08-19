@@ -1,4 +1,4 @@
-package com.tw.jbc.module2;
+package com.tw.jbc.rectangle;
 //some comment
 public class Rectangle {
     private final int length;
