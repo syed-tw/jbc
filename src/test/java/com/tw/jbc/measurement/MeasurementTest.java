@@ -2,7 +2,6 @@ package com.tw.jbc.measurement;
 
 import org.junit.jupiter.api.Test;
 
-import static com.tw.jbc.rectangle.Rectangle.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
